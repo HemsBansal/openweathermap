@@ -23,3 +23,4 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=5
 
 .catch(err => alert("Wrong city name!"));
 })
+console.log('success')
